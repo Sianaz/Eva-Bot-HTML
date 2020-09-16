@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Blogger;
+  src: url(/fonts/Blogger.otf);
+  }
+body {
+background-color: white;
+font-family: Blogger, serif;
+font-size: 18px;
+color: #fff;
+}
+header {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  height: 110vh;
+  background-size: 100% 100%;
+}
+
+
+#main-container header #menu {
+border-radius: 4px;
+background-color: #0683F5;
+
+}
+#main-container header #relleno {
+font-size: 20px;
+color: #0683F5;
+}
+ header #menu ul {
+  margin: 0;
+  padding: 0;
+}
+ header #menu ul li{
+   display: inline-block;
+   padding: 10px;
+   vertical-align: middle;
+ }
+  header #menu ul li a{
+    color: white;
+    text-decoration: none;
+  }
+    header #menu ul li a:hover {
+      color: #ede8e8;
+      text-decoration: underline;
+    }
+    header #menu ul #logo{
+      margin-right: 70%;
+      margin-left: 60px;
+    }
+    /* **************************************************************************** */
+
+ #main-container header main{
+margin: 0 auto;
+width: 1000px;
+    }
+
+#main-container header main div{
+display: inline-block;
+vertical-align: middle;
+}
+
+#main-container header main .text h1{
+font-size: 60px;
+}
+
+#main-container header main .text p{
+font-size: 24px;
+padding: 20px 0;
+}
+
+button{
+background-color: #24d9e6;
+border: 0;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 24px;
+padding: 20px 25px;
+margin: 24px 0;
+}
+
+button:hover {
+background-color: #14929b;
+}
+
+#main-container header main .image {
+  text-align: right;
+  width: 600px;
+}
+  /* **************************************************************************** */
+
+#main-container #Informacion {
+  color: black;
+}
+.layout {
+  width: 1280px;
+  margin: 250px auto;
+}
+
+.layout div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.layout h3 {
+  font-size: 48px;
+  padding: 25px 0;
+}
+
+.layout p {
+font-size: 23px;
+ padding: 25px 0;
+line-height: 23px;
+}
+
+.layout-left .text{
+width: 500px;
+}
+
+.layout-left .image{
+width: 570px;
+text-align: right;
+}
+
+.layout-rigth .text{
+width: 500px;
+}
+
+.layout-rigth .image{
+width: 570px;
+text-align: center;
+}
+
+footer{
+  font-size: 23px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}

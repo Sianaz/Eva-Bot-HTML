@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="img/icon.png">
+  <title>Eva Bot - Inicio</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+ <div id="main-container"> 
+   <header>
+     <div id="menu">
+       <ul> 
+         <li id="logo">
+           <a href="#"> 
+             <img src="img/logo.png" width="100"/>
+           </a>
+        </li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#Informacion">Información</a></li>
+       </ul>
+     </div>   
+     <div id="relleno">
+     <h1>A</h1>
+     </div>
+     <main>
+      <div class="text">
+       <h1>Eva Bot</h1>
+       <p>
+         Un bot dedicado a discord.com con
+          <br>el proposito de divertirte
+       </p>
+       <p>
+         <button id="boton">Invita a Eva</button>
+         <script>
+           document.getElementById('boton').addEventListener('click', () => { 
+             window.location.href = 'https://discord.com/oauth2/authorize?client_id=739895317943812126&permissions=473001191&scope=bot';
+            });
+        </script>
+       </p>
+      </div>
+      <div class="image">
+        <img src="img/eva-bot.png" width="400">
+      </div>
+     </main>
+   </header>
+   <div class="section" id="Informacion"> 
+     <div class="layout layout-left"> 
+       <div class="text">
+       <h3>¿No te gusta el prefijo predeterminado?</h3>
+       <p>Sino te gusta el prefijo predeterminado puedes usar el comando setprefix de esta forma: e!setprefix [nuevo prefix] y si todo sale bien el prefix se cambiara en tu servidor</p>
+      </div>
+       <div class="image">
+       <img src="img/setprefix.png" />
+     </div>
+     </div>
+
+     <div class="layout layout-rigth"> 
+       <div class="image">
+       <img src="img/comandos.png" />
+     </div>
+    <div class="text">
+       <h3>¿Como veo la Lista de Comandos?</h3>
+       <p>para ver la lista de comandos puedes usar el comando help de esta forma Eva te mandara un embed con todos sus comandos(los de desarrollador estan ocultos) y te mandara un mensaje privado con mas informacion</p>
+   </div>
+ </div>
+ <footer>Eva Bot ©️ 2020</footer>
+</body>
+</html>
